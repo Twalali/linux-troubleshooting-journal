@@ -26,7 +26,7 @@ Docker basics, log analysis, shell scripting.
 
 | # | Date | Topic | Difficulty | Time | Key skills | Write-up |
 |---|------|-------|-----------|------|-----------|----------|
-| 1 | YYYY-MM-DD | Example topic | Easy | 10 min | df, du, lsof | [link](write-ups/_template.md) |
+| 1 | 2026-11-26 | Saint John | Easy | 8 min | ls, ps, lsof, cat | [link](write-ups/2026-11-26-saint-john.md) |
 
 ## Repository layout
 
