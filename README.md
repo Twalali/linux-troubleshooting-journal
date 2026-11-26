@@ -51,4 +51,4 @@ This creates `write-ups/YYYY-MM-DD-service-fails-to-bind-port.md`.
 
 ## Author
 
-Twalaly - System and Network Administrator, Burundi.
+Twalaly - just guy who love tech ;)
