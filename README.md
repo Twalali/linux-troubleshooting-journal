@@ -27,7 +27,7 @@ Docker basics, log analysis, shell scripting.
 | # | Date | Topic | Difficulty | Time | Key skills | Write-up |
 |---|------|-------|-----------|------|-----------|----------|
 | 1 | 2026-11-26 | Saint John | Easy | 8 min | ls, ps, lsof, cat | [link](write-ups/2026-11-26-saint-john.md) |
-
+| 2 | 2026-11-28 | Counting IPs in a log | Easy | 6 min | awk, sort, uniq | [link](write-ups/2026-11-28-counting-ips-in-access-log.md) |
 ## Repository layout
 
 ```
