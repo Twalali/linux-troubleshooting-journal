@@ -45,3 +45,11 @@
 | Containers | `docker ps -a` |
 | Logs | `docker logs NAME --tail 50` |
 | Inspect | `docker inspect NAME` |
+
+## Log analysis (access logs)
+| Task | Command |
+|------|---------|
+| Top IPs | `awk '{print $1}' access.log \| sort \| uniq -c \| sort -rn \| head` |
+| Top URLs | `awk '{print $7}' access.log \| sort \| uniq -c \| sort -rn \| head -5` |
+| Count per status code | `awk '{print $9}' access.log \| sort \| uniq -c \| sort -rn` |
+| Requests per hour | `awk -F'[/: ]' '{print $5}' access.log \| sort \| uniq -c` |
